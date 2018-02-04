@@ -1,3 +1,4 @@
 from node:alpine
 
-RUN apk add yarn
+RUN apk update && \
+    apk add yarn
