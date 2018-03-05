@@ -1,4 +1,4 @@
-from node:carbon-alpine
+from node:8-alpine
 
 RUN apk update && \
-    apk add yarn
+    apk add xvfb
